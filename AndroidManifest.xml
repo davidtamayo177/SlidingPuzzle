@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="zmuzik.slidingpuzzle.ui.GameActivity"
+            android:name="zmuzik.slidingpuzzle.ui.activities.GameActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
