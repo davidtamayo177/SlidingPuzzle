@@ -5,8 +5,12 @@
     android:versionCode="2"
     android:versionName="2.0">
 
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".App"
@@ -18,12 +22,13 @@
             android:name=".ui.activities.GameActivity"
             android:configChanges="orientation|screenSize">
         </activity>
-        <activity
-            android:name=".ui.activities.MainActivity">
+        <activity android:name=".ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
