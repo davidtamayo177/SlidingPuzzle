@@ -30,6 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="c1f4281a201ef1f5acfe69d7a297112af05ecd8c" />
     </application>
 
 </manifest>
