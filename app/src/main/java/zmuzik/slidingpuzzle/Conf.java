@@ -4,8 +4,10 @@ public class Conf {
     public static final int DEFAULT_GRID_DIM_SHORT = 4;
     public static final int DEFAULT_GRID_DIM_LONG = 4;
 
-    public static final int GRID_COLUMNS_PORTRAIT = 2;
-    public static final int GRID_COLUMNS_LANDSCAPE = 3;
+    public static final int GRID_COLUMNS_PORTRAIT_HANDHELD = 2;
+    public static final int GRID_COLUMNS_LANDSCAPE_HANDHELD = 3;
+    public static final int GRID_COLUMNS_PORTRAIT_TABLET = 4;
+    public static final int GRID_COLUMNS_LANDSCAPE_TABLET = 6;
 
     public static final String DCIM_APP_SUBDIR = "SlidingPuzzle";
     public static final int PIC_QUALITY = 90;
