@@ -3,6 +3,7 @@ package zmuzik.slidingpuzzle;
 public class Conf {
     public static final int DEFAULT_GRID_DIM_SHORT = 4;
     public static final int DEFAULT_GRID_DIM_LONG = 4;
+    public static final int DEFAULT_GRID_DIMS_POSITION = 4;
 
     public static final int GRID_COLUMNS_PORTRAIT_HANDHELD = 2;
     public static final int GRID_COLUMNS_LANDSCAPE_HANDHELD = 3;
