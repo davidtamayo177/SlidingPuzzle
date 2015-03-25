@@ -6,7 +6,9 @@ public class Conf {
     public static final int DEFAULT_GRID_DIMS_POSITION = 4;
 
     public static final int PAGE_SIZE_LOCAL = 3;
-    public static final int PAGE_SIZE_FLICKR = 12;
+    public static final int PAGE_SIZE_FLICKR = 3;
+
+    public static final int FLICKR_REQUEST_IMAGES = 48;
 
     public static final int GRID_COLUMNS_PORTRAIT_HANDHELD = 2;
     public static final int GRID_COLUMNS_LANDSCAPE_HANDHELD = 3;
