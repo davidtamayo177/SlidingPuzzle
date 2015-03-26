@@ -17,11 +17,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".ui.activities.GameActivity"
-            android:configChanges="orientation|screenSize"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-        </activity>
+
         <activity android:name=".ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -29,9 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.activities.GameActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.Fullscreen">
+        </activity>
+
         <meta-data
             android:name="com.crashlytics.ApiKey"
-            android:value="c1f4281a201ef1f5acfe69d7a297112af05ecd8c" />
+            android:value="c1f4281a201ef1f5acfe69d7a297112af05ecd8c"/>
     </application>
 
 </manifest>
